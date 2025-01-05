@@ -10,10 +10,12 @@ def main():
 
     resp = requests.get(overview_forecast_url)
     resp_json = resp.json()
+    print("--- overview_forecast")
     print(resp_json)
 
     resp = requests.get(forecast_url)
     resp_json = resp.json()
+    print("--- forecast")
     print(resp_json)
 
 
