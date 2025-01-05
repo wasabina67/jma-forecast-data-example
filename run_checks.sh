@@ -1,6 +1,6 @@
 #!/bin/bash
 
-isort run.py
-black run.py
-flake8 run.py
-mypy run.py
+isort src/run.py
+black src/run.py
+flake8 src/run.py
+mypy src/run.py
