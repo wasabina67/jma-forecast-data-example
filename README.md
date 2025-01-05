@@ -5,7 +5,7 @@ JMA forecast data example
 
 https://www.jma.go.jp/bosai/common/const/area.json
 
-## forecast
+## Forecast
 
 ### overview_forecast
 
